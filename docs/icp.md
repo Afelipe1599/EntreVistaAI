@@ -1,25 +1,25 @@
-El Perfil de Cliente Ideal (ICP, por sus siglas en inglés) para las plataformas de entrevistadores agénticos con inteligencia artificial se centra principalmente en organizaciones que enfrentan desafíos críticos de escala y calidad en su fuerza laboral. Los principales tomadores de decisión (Buyer Personas) son los Vicepresidentes de Adquisición de Talento (VPs of TA) y los Directores de Recursos Humanos (CHROs).
+El Perfil de Cliente Ideal (ICP) para una plataforma de verificacion civica agentica con IA se centra en dos segmentos que enfrentan la asimetria informativa del ciclo electoral colombiano desde angulos complementarios. El segmento primario (B2C) son los ciudadanos digitalmente activos que consumen informacion politica en tiempo real; el segmento secundario (B2B) son las organizaciones profesionales que requieren verificacion sistematica a escala.
 
-A continuación, se detalla el ICP, junto con sus principales dolores y deseos:
+A continuacion, se detalla el ICP, junto con sus principales dolores y deseos:
 
 **Perfil de Cliente Ideal (Segmentos Principales)**
 
-* **Empresas de Contratación de Alto Volumen (High-Volume Hiring):** Sectores como BPO (Contact Centers), comercio minorista (Retail), logística y atención médica. Estas empresas contratan a miles de trabajadores operativos al año.  
-* **Empresas Tecnológicas y SaaS (Mid-Market a Enterprise):** Organizaciones que buscan reclutar ingenieros y especialistas técnicos de manera precisa y basada en habilidades comprobables.  
-* **Servicios Profesionales y Programas de Graduados:** Firmas (como despachos de abogados) que reciben avalanchas de solicitudes de talento joven y necesitan filtrar con alta precisión sin perjudicar la experiencia del candidato.
+- **Ciudadano Informado (B2C):** Colombianos 18-45, urbanos, digitalmente activos, que consumen noticias politicas en redes sociales, TV y mensajeria instantanea. No son periodistas, pero quieren evaluar la veracidad de lo que escuchan sin esperar dias a que un medio lo verifique.
+- **Periodistas y Fact-checkers:** Redacciones independientes y verificadores de medios (ColombiaCheck, La Silla Vacia, medios regionales) que necesitan acelerar el proceso manual de transcripcion + investigacion + publicacion de verificaciones.
+- **Instituciones y Organizaciones Civicas:** Veedurias ciudadanas, observatorios electorales (MOE), ONGs de transparencia y entidades academicas que monitorean el discurso publico de manera sistematica durante campanas electorales.
 
 **Principales Dolores (Pain Points)**
 
-* **Sobrecarga operativa y embudos colapsados:** Los reclutadores están abrumados; una vacante corporativa promedio atrae más de 250 solicitudes, lo que hace imposible revisar detalladamente cada perfil y genera que el mejor talento se pierda entre el ruido.  
-* **Altos costos y tiempos de contratación prolongados:** El tiempo promedio para cubrir una vacante tradicional es de 44 días, mientras que los mejores candidatos salen del mercado en apenas 10 días, lo que provoca la pérdida de talento ("ghosting").  
-* **Alta rotación (Attrition) y costos hundidos:** Especialmente en la industria BPO, las tasas de rotación anual oscilan entre el 80% y más del 120%, lo que obliga a los equipos a estar en un ciclo reactivo y perpetuo de reclutamiento.  
-* **Subjetividad y sesgos:** Las entrevistas humanas suelen ser inconsistentes y carecer de estructuras objetivas, lo que resulta en decisiones basadas en instintos en lugar de datos.  
-* **Fraude de candidatos:** El aumento de perfiles falsos, uso de "deepfakes", suplantación de identidad y trampas impulsadas por IA durante las entrevistas a distancia.
+- **Verificacion inaccesible y asincronica:** Solo 3 organizaciones hacen fact-checking sistematico en Colombia. Las verificaciones se publican dias despues del discurso, cuando la falsedad ya se viralizo en WhatsApp y redes sociales.
+- **Sobrecarga informativa y desconfianza:** El 59% de los colombianos esta preocupado por las falsedades en internet. Los politicos e influencers son senalados como el mayor peligro para la informacion veraz, pero el ciudadano carece de herramientas para discernir por si mismo.
+- **Proceso manual lento para profesionales:** Transcribir un discurso, investigar las fuentes, redactar la verificacion y publicarla toma entre 4 y 8 horas. Equipos pequenos de verificadores no pueden cubrir todos los discursos de una campana electoral con 3,000+ candidatos.
+- **Fragmentacion de fuentes:** No existe un pipeline unificado que conecte transcripcion automatica con bases de datos de verificaciones previas (ClaimReview, DANE, Datos.gov.co) en un solo flujo.
+- **Sesgo partidista como barrera de adopcion:** La evidencia cientifica demuestra que los ciudadanos subordinan la verdad objetiva a la alineacion politica, lo que exige un diseno de interfaz psicologicamente informado para evitar el rechazo reactivo.
 
 **Principales Deseos (Desires)**
 
-* **Hiper-eficiencia y reducción de costos:** Buscan automatizar hasta el 80% de las tareas repetitivas (como el screening y el agendamiento) para reducir drásticamente el tiempo de contratación, logrando métricas como un 79% de mayor velocidad en el ciclo.  
-* **Contratación basada en habilidades reales (Skills-Based):** Desean herramientas que validen competencias prácticas e idoneidad (mediante pruebas o razonamiento dinámico) en lugar de depender únicamente de las palabras clave de un currículum.  
-* **Experiencia del candidato premium:** Quieren ofrecer un proceso interactivo, flexible, disponible 24/7 y sin fricciones burocráticas, en el cual el candidato sienta que la evaluación fue personalizada e imparcial.  
-* **Supervisión y control ético (Human-in-the-loop):** Necesitan que la tecnología no sea una "caja negra". Desean que la IA proponga recomendaciones fundamentadas y documentadas (transcripciones y rúbricas), pero que la decisión final de contratación y la gestión estratégica siga estando a cargo de un profesional humano para mitigar riesgos legales y asegurar el cumplimiento normativo.
-
+- **Verificacion instantanea en el punto de consumo:** Grabar un fragmento de discurso politico y obtener un analisis automatico de veracidad con fuentes verificables en menos de un minuto, directamente desde el celular.
+- **Trazabilidad y transparencia total:** Cada veredicto vinculado a la fuente periodistica original (ColombiaCheck, La Silla Vacia). El usuario quiere ver de donde viene la informacion, no confiar ciegamente en un algoritmo.
+- **Neutralidad agnostica:** Misma pipeline para cualquier politico sin importar su partido. El sistema debe ser percibido como un motor de busqueda civico, no como una herramienta con agenda ideologica.
+- **Aceleracion profesional (para periodistas):** Reducir el tiempo de verificacion de horas a minutos, permitiendo cubrir mas discursos con los mismos recursos humanos y generar reportes estructurados exportables.
+- **Cumplimiento legal por diseno:** Procesamiento efimero del audio (destruccion inmediata tras analisis), compliance con Ley 1581 de 2012 y Circular 001/2025 de la SIC, y disclaimers claros sobre la naturaleza algoritmica del sistema.

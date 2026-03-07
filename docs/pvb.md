@@ -1,189 +1,193 @@
-# Product Vision Board — EntreVista AI
+# Product Vision Board — Pajudometro
 
-**Versión:** 1.0
-**Fecha:** 2026-03-03
-**Basado en:** PRD v1.0, overview.md, mercado.md, icp.md
+**Version:** 1.0
+**Fecha:** 2026-03-06
+**Basado en:** CLAUDE.md, Banco de Productos, Validacion, Critica
 
 ---
 
-## 1. Visión
+## 1. Vision
 
-> **Democratizar el acceso a entrevistas de screening de alta calidad en América Latina**, reemplazando chatbots estáticos con un agente de IA que razona, repregunta y entrega evidencia estructurada — manteniendo siempre al profesional humano como el decisor final.
+> **Democratizar la verificacion de discursos politicos en tiempo real en Colombia**, reemplazando la dependencia de fact-checks periodisticos asincrónicos con un agente de IA que transcribe, extrae afirmaciones verificables y emite veredictos con fuentes citadas — poniendo la auditoria civica directamente en el bolsillo del ciudadano.
 
 ---
 
 ## 2. Segmento Objetivo (Target Group)
 
-### Segmento A: BPO / Alto Volumen
-| Dimensión | Detalle |
+### Segmento A: Ciudadano Informado
+| Dimension | Detalle |
 |---|---|
-| **Empresas** | 200–5,000+ empleados |
-| **Sectores** | Contact centers, retail, logística |
-| **Geografía MVP** | Colombia, México, Argentina |
-| **Volumen** | 500–5,000+ contrataciones/año |
-| **Rotación** | 80%–120%+ anual |
-| **Buyer persona** | Director/VP de Adquisición de Talento |
+| **Perfil** | Colombianos 18–45, urbanos, digitalmente activos |
+| **Comportamiento** | Consumen noticias politicas en redes sociales y TV |
+| **Frustracion** | No tienen herramientas para verificar lo que escuchan en tiempo real |
+| **Geografia MVP** | Colombia (Bogota, Medellin, Cali, Barranquilla) |
+| **Contexto** | Ciclo electoral 2026 (legislativas marzo, presidenciales mayo) |
+| **Canal** | App movil (iOS, Android) + Web |
 
-### Segmento B: Tech / SaaS
-| Dimensión | Detalle |
+### Segmento B: Periodistas y Fact-checkers
+| Dimension | Detalle |
 |---|---|
-| **Empresas** | 50–500 empleados (mid-market) |
-| **Sectores** | Software, SaaS, fintech, startups |
-| **Geografía MVP** | Colombia, México, Argentina, remotos LATAM |
-| **Volumen** | 50–300 contrataciones/año |
-| **Buyer persona** | Head of People / CHRO |
+| **Perfil** | Redacciones independientes, verificadores de medios |
+| **Organizaciones** | ColombiaCheck, La Silla Vacia, medios regionales |
+| **Frustracion** | Proceso manual de transcripcion + verificacion toma horas/dias |
+| **Volumen** | 10–50 discursos/semana durante campanas electorales |
+| **Necesidad** | Pipeline automatizado que acelere su flujo de trabajo |
 
 ### Usuario diario
-**Reclutador operativo** — no compra, pero puede vetar. Necesita menos tareas repetitivas y mejor información sobre candidatos.
+**Ciudadano curioso** — no es periodista, pero quiere saber si lo que dice un politico es verdad o mentira. Necesita respuestas rapidas, claras y con fuentes.
 
 ---
 
 ## 3. Necesidades (Needs / Pains)
 
-### BPO / Alto Volumen
+### Ciudadano Informado
 | Pain | Evidencia |
 |---|---|
-| **Sobrecarga operativa** | 250+ solicitudes por vacante, rotación de 80–120% |
-| **Pérdida de talento** | Time-to-hire de 44 días vs. 10 días que el mejor candidato está disponible |
-| **Abandono de candidatos** | 4 de cada 10 abandonan por procesos engorrosos |
-| **Contratación sin evidencia** | Decisiones de instinto sin evaluación estructurada |
+| **Verificacion inaccesible** | Solo 3 organizaciones hacen fact-checking sistematico en Colombia |
+| **Asimetria temporal** | Las verificaciones se publican dias despues del discurso, cuando ya circuló |
+| **Sobrecarga informativa** | 59% de colombianos preocupados por falsedades en internet (Reuters Institute) |
+| **Desconfianza generalizada** | Politicos e influencers senalados como mayor peligro para la informacion veraz |
 
-### Tech / SaaS
+### Periodistas y Fact-checkers
 | Pain | Evidencia |
 |---|---|
-| **No se validan habilidades reales** | CVs no confiables, screenings telefónicos insuficientes |
-| **Equipos pequeños que no escalan** | 1–5 reclutadores para 50–300 posiciones |
-| **Evaluaciones inconsistentes** | Cada reclutador pregunta y evalúa de forma diferente |
-| **Mala experiencia = candidatos perdidos** | Candidatos tech tienen 3–5 ofertas simultáneas |
+| **Proceso manual lento** | Transcribir + investigar + redactar una verificacion toma 4–8 horas |
+| **Capacidad limitada** | Equipos pequenos no pueden cubrir todos los discursos de campana |
+| **Sin herramientas LATAM-native** | Full Fact y Factiverse operan en ingles/Europa, sin adaptacion a espanol colombiano |
+| **Fragmentacion de fuentes** | No hay pipeline unificado que conecte transcripcion con bases de verificacion |
 
 ### JTBD
 
-> **Cuando** mi equipo de reclutamiento está colapsado procesando cientos de aplicaciones con alta rotación, **quiero** un agente de IA que conduzca screenings conversacionales, adaptativos y 24/7 vía Telegram, **para** reducir el tiempo de contratación y entregar candidatos pre-evaluados con evidencia estructurada.
+> **Cuando** escucho a un politico colombiano haciendo afirmaciones en un debate, entrevista o mitin, **quiero** grabar ese fragmento y obtener un analisis automatico de veracidad con fuentes verificables, **para** tomar decisiones informadas y no depender de que un medio lo verifique dias despues.
 
 ---
 
 ## 4. Producto (Product / Solution)
 
 ### One-Liner
-**EntreVista AI** es una plataforma de entrevistas agénticas que conduce screenings conversacionales inteligentes vía Telegram, con razonamiento dinámico, repreguntas contextuales y evidencia trazable para el reclutador.
+**Pajudometro** es una app movil que funciona como un "Shazam para discursos politicos": graba audio de un politico colombiano, y un agente de IA transcribe, extrae afirmaciones, las fact-checkea contra fuentes confiables y devuelve un score de credibilidad con veredicto por cada claim.
 
 ### Capacidades clave del MVP
 
-| # | Capacidad | Descripción |
+| # | Capacidad | Descripcion |
 |---|---|---|
-| 1 | **Motor conversacional agéntico** | Screening por competencias con repreguntas dinámicas vía Telegram |
-| 2 | **Evaluación con evidencia citada** | Cada puntaje vinculado a citas textuales de la transcripción |
-| 3 | **Rúbricas configurables** | Editor de competencias, pesos y criterios por tipo de rol |
-| 4 | **Dashboard HITL** | Cola de revisión con Aprobar/Rechazar — IA recomienda, humano decide |
-| 5 | **Guardrails anti-alucinación** | Confinamiento a base de conocimiento, escalación a humano |
-| 6 | **Re-engagement** | Recuperación de candidatos que abandonaron (meta: +20%) |
-| 7 | **Compliance by design** | Consentimiento afirmativo, logs inmutables, retención configurable |
+| 1 | **Captura de audio** | Grabacion desde microfono con auto-stop, upload a almacenamiento en la nube |
+| 2 | **Agente de analisis agéntico** | Loop multi-turn con LLM que orquesta: transcripcion, extraccion de claims, identificacion de orador, fact-checking con fuentes |
+| 3 | **Veredicto por claim** | Cada afirmacion clasificada como verdad / mentira / enganoso con explicacion y fuente verificable |
+| 4 | **Score de veracidad (0–100)** | Gauge visual que resume la credibilidad del discurso completo |
+| 5 | **Historial de grabaciones** | Registro de analisis pasados del usuario |
+| 6 | **Rankings de politicos** | Leaderboard por veracidad acumulada basado en todas las grabaciones |
+| 7 | **Procesamiento transparente** | Pantalla paso a paso con logs en tiempo real |
 
 ### Principios no negociables
-1. 🤝 **HITL** — La IA recomienda, el humano decide
-2. 🔍 **Transparencia** — El candidato siempre sabe que habla con IA
-3. 📋 **Trazabilidad** — Cada puntaje tiene una cita textual
-4. 🛡️ **Anti-alucinación** — Si no sé, escalo
-5. 🔒 **Privacidad** — Solo datos profesionales, nada biométrico
-6. 💬 **Experiencia del candidato** — El candidato es usuario, no recurso
+1. **Agnóstico** — Misma pipeline para cualquier politico, sin filtros ideologicos
+2. **Trazabilidad** — Cada veredicto tiene fuente verificable citada
+3. **Anti-alucinacion** — Si no hay fuente verificable, se marca como no verificable
+4. **Transparencia** — El usuario ve cada paso del analisis en tiempo real
+5. **Privacidad** — Audio procesado en servidor, compliance con Ley 1581 de 2012
 
 ---
 
 ## 5. Valor de Negocio (Business Value)
 
 ### Modelo de negocio
-**Pago por contratación exitosa** — sin costo fijo. Solo se cobra cuando el producto entrega valor medible.
+**Freemium** — acceso gratuito con limite de grabaciones/mes. Tier premium para uso ilimitado + exportacion de reportes + acceso API.
 
 ### North Star Metric
-**Contrataciones exitosas facilitadas por mes**
+**Discursos verificados por semana**
 
-### KPIs clave (metas MVP a 90 días)
+### KPIs clave (metas MVP a 90 dias)
 
-| Categoría | KPI | Meta |
+| Categoria | KPI | Meta |
 |---|---|---|
-| **Activación** | Tasa de completación del screening | ≥80% |
-| **Activación** | Time-to-first-value (operador) | <48 horas |
-| **Calidad** | Candidate NPS | ≥4.0/5.0 |
-| **Calidad** | Time-to-screen | <1 hora (vs. 2–5 días manual) |
-| **Calidad** | Tasa de alucinación | <1% |
-| **Retención** | Retención de operadores a 30 días | ≥60% |
-| **Retención** | Tasa de desacuerdo humano-IA | <20% (decreciente) |
+| **Activacion** | Tasa de completacion del flujo (grabar → ver resultados) | >=70% |
+| **Activacion** | Tiempo de analisis end-to-end | <60 segundos |
+| **Calidad** | Precision de transcripcion (WER) | <15% |
+| **Calidad** | Claims con fuente verificable | >=80% |
+| **Calidad** | Tasa de alucinacion en veredictos | <2% |
+| **Retencion** | Usuarios que graban 2+ discursos en 7 dias | >=30% |
+| **Engagement** | Grabaciones por usuario activo/semana | >=3 |
 
-### Propuesta de ROI
+### Propuesta de ROI (para periodistas)
 
-| Métrica de impacto | Antes | Después |
+| Metrica de impacto | Antes (manual) | Despues (Pajudometro) |
 |---|---|---|
-| Time-to-screen | 2–5 días | <1 hora |
-| Candidatos screeneados/día/reclutador | ~20 | Ilimitado |
-| Tasa de completación | ~60% | ≥80% |
-| Evidencia evaluativa | Notas fragmentadas | Estructurada + trazable |
+| Tiempo por verificacion | 4–8 horas | <5 minutos |
+| Discursos verificados/dia | 1–2 | Ilimitado |
+| Cobertura de campana | Parcial (solo discursos principales) | Total (cualquier ciudadano graba) |
+| Trazabilidad de fuentes | Notas del periodista | Estructurada + enlazada |
 
 ---
 
-## 6. Diferenciación (Competitive Advantage)
+## 6. Diferenciacion (Competitive Advantage)
 
 ### Brecha de mercado
 
-> **En LATAM no existe un producto que combine razonamiento agéntico real + canal de mensajería nativo + output de evidencia estructurada, a un precio accesible por contratación exitosa.**
+> **No existe un producto movil en LATAM que permita a un ciudadano grabar un discurso politico y obtener un fact-check automatico con IA en menos de un minuto, con veredicto por claim y fuentes citadas.**
 
 ### Posicionamiento vs. competidores
 
-| Competidor | Limitación clave | Diferenciador EntreVista AI |
+| Competidor | Limitacion clave | Diferenciador Pajudometro |
 |---|---|---|
-| **Magneto 365** | Flujos predefinidos, sin evidencia evaluativa | Razonamiento agéntico con repreguntas dinámicas |
-| **Webcand** | Preguntas estáticas, video asincrónico | Conversación bidireccional adaptativa |
-| **Genomawork** | Formato examen, alta fricción | Evaluación dentro de un diálogo natural |
-| **Buk** | ATS con filtros de keywords | Capa de screening inteligente complementaria |
-| **Glider AI** | No localizado LATAM, pricing enterprise | LATAM-first, pricing por contratación |
-| **HireVue** | Requiere video, pricing prohibitivo | Texto vía Telegram, precio accesible |
+| **Full Fact AI** | Enfocado en redacciones, no B2C; inglés primero | Directo al ciudadano, espanol nativo, movil-first |
+| **Factiverse Live** | Plataforma para periodistas, no consumidor final | App movil accesible para cualquier persona |
+| **ColombiaCheck** | Manual, asincrono (dias de delay) | Automatico, resultado en <1 minuto |
+| **Google Fact Check Tools** | API sin interfaz de usuario, requiere integracion tecnica | Experiencia end-to-end en una app |
+| **ChatGPT / Copilot** | Generalista, sin pipeline de fact-checking estructurado | Agente especializado en verificacion con fuentes trazables |
+| **ClaimBuster** | Deteccion de claims sin verificacion; ingles solamente | Pipeline completo: deteccion + verificacion + veredicto |
 
 ### Ejes de posicionamiento
 ```
-Inteligencia Evaluativa: Filtrado estático ← → Razonamiento agéntico
-Accesibilidad LATAM:     Enterprise global ← → LATAM-native
+Accesibilidad:    Solo periodistas  <--- --->  Cualquier ciudadano
+Velocidad:        Dias (manual)     <--- --->  Segundos (automatico)
 
-EntreVista AI ocupa el cuadrante vacío: Agéntico + LATAM-native
+Pajudometro ocupa el cuadrante vacio: Ciudadano + Automatico
 ```
 
 ---
 
-## 7. Contexto Estratégico
+## 7. Contexto Estrategico
 
-### ¿Por qué ahora?
+### Por que ahora?
 
-| Tendencia | Implicación |
+| Tendencia | Implicacion |
 |---|---|
-| **Brecha agéntica LATAM** | Solo 14% de orgs tiene IA agéntica en funcionamiento |
-| **HR Tech LATAM en hipercrecimiento** | $6,541M para 2030, CAGR 15.5% |
-| **Presión regulatoria** | EU AI Act (agosto 2026) + ley de IA ética Colombia — ventaja para compliance by design |
-| **Validación enterprise** | Workday adquirió Paradox en 2025 — conversacional agéntico es mainstream |
+| **Elecciones Colombia 2026** | Legislativas (marzo) y presidenciales (mayo) — pico de demanda de verificacion |
+| **Alianza ColombiaCheck-CRC-MOE** | Reconocimiento oficial de la necesidad de herramientas tech contra desinformacion |
+| **Modelos de transcripcion mejorados** | Nuevos modelos STT (2025) reducen WER significativamente en espanol |
+| **Agentes de IA mainstream** | Tool-calling en LLMs permite pipelines de verificacion multi-paso confiables |
+| **Mercado anti-desinformacion** | Proyectado a $4.9B para 2030, CAGR 42% |
+| **59% colombianos preocupados** | Demanda ciudadana documentada por herramientas contra falsedades (Reuters Institute) |
 
-### Decisiones estratégicas fundamentales
+### Decisiones estrategicas fundamentales
 
-| Decisión | Resolución |
+| Decision | Resolucion |
 |---|---|
-| Alcance geográfico | LATAM-first |
-| Segmentos MVP | BPO + Tech/SaaS |
-| Canal primario | Telegram |
-| Profundidad del agente | Screening conversacional con repreguntas (sin tareas prácticas en MVP) |
-| Idioma | Español neutro |
-| Modelo de negocio | Por contratación exitosa |
-| Integraciones ATS | Ninguna en MVP |
+| Alcance geografico | Colombia-first (expandible a LATAM) |
+| Segmento MVP | Ciudadano informado (B2C) |
+| Plataforma | Flutter (iOS, Android, Web) |
+| Backend | PostgreSQL + Auth + Storage en la nube |
+| Modelo de negocio | Freemium |
+| Idioma | Espanol colombiano |
 
 ### Top 3 riesgos
 
-| Riesgo | Mitigación |
+| Riesgo | Mitigacion |
 |---|---|
-| **Baja adopción de Telegram** | Validar en 30 días con 100 candidatos. Si conversión <50%, priorizar canal web |
-| **Revenue impredecible** | Tracking bilateral + considerar modelo híbrido (base + variable) |
-| **Alucinación del agente** | Guardrails by design + red-teaming + muestreo semanal. Meta: <1% |
+| **Alucinacion en veredictos** | Cada claim requiere fuente verificable antes de emitir veredicto. Meta: <2% alucinacion |
+| **Sesgo politico percibido** | Pipeline agnostico identico para todos los politicos. Transparencia total en fuentes. Sin filtros ideologicos |
+| **Calidad de audio en entornos ruidosos** | Umbral de confianza en transcripcion; si es ambiguo, se marca como no verificable en vez de adivinar |
 
 ---
 
-## 8. Roadmap de Alto Nivel (30/60/90 días)
+## 8. Roadmap de Alto Nivel (30/60/90 dias)
 
 | Fase | Entregable principal | Hito |
 |---|---|---|
-| **Días 1–30** | Motor conversacional + guardrails + evaluación v1 | Agente funcional en Telegram + decisión de viabilidad del canal |
-| **Días 31–60** | Dashboard HITL + rúbricas configurables + piloto comercial #1 | Piloto con BPO en Colombia (200–300 candidatos) |
-| **Días 61–90** | Iteración + segundo piloto + caso de estudio | Decisión informada sobre canal, modelo de negocio y calidad |
+| **Dias 1–30** | Flujo core: grabar → transcribir → extraer claims → fact-check → mostrar resultados | Agente funcional end-to-end con 3+ politicos verificados |
+| **Dias 31–60** | Rankings de politicos + historial + mejora de UX de resultados + pruebas con usuarios reales | 50+ grabaciones reales analizadas con feedback cualitativo |
+| **Dias 61–90** | Optimizacion de latencia + precision + segundo segmento (periodistas) + caso de estudio | Decision informada sobre modelo de negocio, calidad y canal de distribucion |
+
+---
+
+*Hardcore AI by 30X · Marzo 2026*
